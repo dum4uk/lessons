@@ -1,0 +1,93 @@
+    @import url("reset.css");
+    .header_preface {
+        color: rgb(243, 188, 6);
+    }
+    
+    h2 {
+        color: rgb(4, 208, 248);
+    }
+    
+    .content-item>a {
+        color: cornflowerblue;
+    }
+    
+    .second-content_item>a {
+        color: crimson;
+    }
+    
+    li {
+        color: chocolate;
+    }
+    
+    h3 {
+        color: rgb(17, 238, 172);
+    }
+    
+    .text {
+        color: rgb(216, 6, 244);
+    }
+    
+    .geography-article h2,
+    h3 {
+        color: deeppink;
+    }
+    
+    .geography-article p {
+        color: aqua;
+    }
+    
+    .geography-article li {
+        color: lawngreen;
+    }
+    
+    .relief-article .text {
+        color: darksalmon;
+    }
+    
+    .relief-article #relief {
+        color: rgb(140, 10, 221);
+    }
+    
+    .climate-article * {
+        color: springgreen;
+    }
+    
+    #watercourses~p {
+        color: brown;
+    }
+    
+    .landscapes-article>img+p {
+        color: chartreuse;
+    }
+    
+    #protected_areas~p {
+        color: darksalmon;
+    }
+    
+    .minerals-article p {
+        color: blue;
+    }
+    
+    .minerals-article>h3 {
+        color: brown;
+    }
+    
+    .biodiversity-article>div>p {
+        color: darkorange;
+    }
+    
+    .biodiversity-article>p+span {
+        color: greenyellow;
+    }
+    
+    .biodiversity-article>img~p {
+        color: fuchsia;
+    }
+    
+    footer * {
+        color: aqua;
+    }
+    
+    [target*="bla"] {
+        color: indianred;
+    }
