@@ -1,0 +1,223 @@
+    @import url("fonts.css");
+    @import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+    @import url("https://fonts.googleapis.com/css?family=Manrope:500,700&display=swap");
+    @import url("reset.css");
+    body {
+        font-family: "Monda", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        text-align: justify;
+        line-height: 1.2;
+    }
+    
+    h1,
+    h2,
+    h3,
+    footer {
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-style: double;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    .header-preface {
+        font-family: "Manrope", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: rgb(243, 188, 6);
+    }
+    
+    h2 {
+        font-size: 30px;
+        color: rgb(4, 208, 248);
+    }
+    
+    .content {
+        font-family: 'Geometria', sans-serif;
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    .content-item>a {
+        font-size: 24px;
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        font-weight: 700;
+        color: rgb(100, 149, 237);
+    }
+    
+    .second-content-item>a {
+        font-size: 20px;
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        text-decoration-color: rgb(0, 0, 0);
+        font-weight: 500;
+        color: rgb(220, 20, 60);
+    }
+    
+    h3 {
+        font-size: 24px;
+        color: rgb(17, 238, 172);
+    }
+    
+    .text {
+        font-family: 'Geometria', sans-serif;
+        color: rgb(216, 6, 244);
+    }
+    
+    .geography-article h2,
+    h3 {
+        color: rgb(255, 20, 147);
+    }
+    
+    .geography-article p {
+        color: rgb(0, 255, 255);
+    }
+    
+    .geography-article li {
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-decoration: underline;
+        text-decoration-style: dotted;
+        font-size: 20px;
+        text-align: right;
+        color: rgb(124, 252, 0);
+    }
+    
+    .relief-article .text {
+        font-size: 24px;
+        text-decoration: line-through;
+        text-decoration-style: wavy;
+        text-decoration-color: rgb(38, 1, 1);
+        color: rgb(233, 150, 122);
+    }
+    
+    .relief-article #relief {
+        color: rgb(140, 10, 221);
+    }
+    
+    .climate-article * {
+        text-shadow: 1px 1px 2px rgb(5, 40, 241);
+        color: rgb(0, 255, 127);
+    }
+    
+    #watercourses~p {
+        text-shadow: 5px 5px #558ABB;
+        color: rgb(165, 42, 42);
+    }
+    
+    .landscapes-article>img+p {
+        letter-spacing: 5px;
+        color: rgb(127, 255, 0);
+    }
+    
+    #protected-areas~p {
+        word-spacing: 15px;
+        color: rgb(233, 150, 122);
+    }
+    
+    .minerals-article p {
+        text-transform: capitalize;
+        color: rgb(0, 0, 255);
+    }
+    
+    .minerals-article>h3 {
+        text-transform: uppercase;
+        color: rgb(165, 42, 42);
+    }
+    
+    .biodiversity-article>div>p {
+        text-shadow: rgb(25, 243, 5) 5px 2px;
+        color: rgb(255, 140, 0);
+    }
+    
+    .biodiversity-article>p+span {
+        text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+        color: rgb(173, 255, 47);
+    }
+    
+    .biodiversity-article>img~p {
+        color: rgb(255, 0, 255);
+    }
+    
+    footer * {
+        font-size: 24px;
+        color: rgb(0, 255, 255);
+    }
+    
+    [target*="bla"] {
+        color: rgb(205, 92, 92);
+    }
+    /* Домашня робота пункт №4 */
+    
+    .portfolio,
+    .portfolio>h2 {
+        font-family: "Work Sans", sans-serif;
+        text-align: left;
+        text-decoration: none;
+    }
+    
+    .portfolio-title {
+        font-size: 38px;
+        font-weight: 600;
+        color: rgb(19, 34, 56);
+        line-height: 1.32;
+    }
+    
+    .portfolio-text {
+        font-size: 18px;
+        color: rgb(85, 96, 112);
+        line-height: 1.33;
+    }
+    
+    .about-us,
+    .about-us>h2 {
+        font-family: "DM Sans", sans-serif;
+        text-align: left;
+        text-decoration: none;
+    }
+    
+    .about-us-title {
+        font-size: 88px;
+        font-weight: 700;
+        color: rgb(30, 27, 57);
+        line-height: 1.8;
+    }
+    
+    .about-us-text {
+        color: rgb(71, 68, 100);
+        font-size: 24px;
+        line-height: 1.75;
+    }
+    
+    .introduce,
+    .introduce>h2 {
+        font-family: "Roboto", sans-serif;
+        text-align: left;
+        text-decoration: none;
+    }
+    
+    .introduce-title {
+        color: rgb(9, 17, 51);
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 1.32;
+        letter-spacing: 1px;
+    }
+    
+    .introduce-text {
+        color: rgb(80, 95, 152);
+        font-size: 18px;
+        line-height: 1.67;
+    }
