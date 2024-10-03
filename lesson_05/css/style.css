@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css?family=Fredoka&display=swap");
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap");
+@import url("reset.css");
+
+/* .none {
+    display: none;
+} */
+
+body {
+    background-color: rgb(240, 255, 255);
+    max-width: 1920px;
+    margin: 30px auto;
+    font-family: "Monda", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    line-height: 1.2;
+}
+
+img {
+    display: block;
+    margin-block-start: 15px;
+    margin-inline: auto;
+}
+
+h1,
+h2,
+h3,
+footer {
+    margin: 20px 0 0 0;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: -35px;
+}
+
+.header-preface {
+    background-color: rgb(95, 158, 160);
+    padding: 15px;
+    margin-block-start: 40px;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(243, 188, 6);
+}
+
+p {
+    background-color: rgb(250, 235, 215);
+    padding: 40px 30px 20px 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(4, 208, 248);
+}
+
+.second-title {
+    margin-block-end: 40px;
+}
+
+.content {
+    background-color: chartreuse;
+    padding-block: 25px;
+    font-family: 'Geometria', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.content-item>a {
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    font-weight: 700;
+    color: rgb(100, 149, 237);
+}
+
+.second-content-item>a {
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: rgb(0, 0, 0);
+    font-weight: 500;
+    color: rgb(220, 20, 60);
+}
+
+h3 {
+    font-size: 24px;
+    color: rgb(17, 238, 172);
+}
+
+.text {
+    padding-inline: 50px;
+    margin-left: 40px;
+    font-family: 'Geometria', sans-serif;
+    color: rgb(216, 6, 244);
+}
+
+.geography-article {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.geography-article h2,
+h3 {
+    margin-inline-start: 70px;
+    text-align: left;
+    color: rgb(255, 20, 147);
+}
+
+.geography-article p {
+    margin-right: 50px;
+    color: rgb(0, 255, 255);
+}
+
+.geography-article li {
+    margin-inline-end: 85px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-size: 20px;
+    text-align: right;
+    color: rgb(124, 252, 0);
+}
+
+.relief-article {
+    width: 1300px;
+    margin-block: 0;
+    margin-inline: auto;
+}
+
+.relief-article .text {
+    font-size: 24px;
+    text-decoration: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(38, 1, 1);
+    color: rgb(233, 150, 122);
+}
+
+.relief-article #relief {
+    color: rgb(140, 10, 221);
+}
+
+.climate-article {
+    min-width: 1300px;
+}
+
+.climate-article * {
+    text-shadow: 1px 1px 2px rgb(5, 40, 241);
+    color: rgb(0, 255, 127);
+}
+
+.climate-article p,
+.climate-article .text {
+    padding: 0;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+.watercourses-article {
+    min-height: 1300px;
+    background-color: rgb(250, 235, 215);
+}
+
+#watercourses~p {
+    text-shadow: 5px 5px #558ABB;
+    color: rgb(165, 42, 42);
+}
+
+.landscapes-article>img+p {
+    padding: 0;
+    padding-inline-start: 50px;
+    padding-inline-end: 15px;
+    padding-block-start: 40px;
+    padding-block-end: 20px;
+    letter-spacing: 5px;
+    color: rgb(127, 255, 0);
+}
+
+#protected-areas~p {
+    word-spacing: 15px;
+    color: rgb(233, 150, 122);
+}
+
+.minerals-article p {
+    text-transform: capitalize;
+    color: rgb(0, 0, 255);
+}
+
+.minerals-article>h3 {
+    text-transform: uppercase;
+    color: rgb(165, 42, 42);
+}
+
+.biodiversity-article {
+    max-height: 900px;
+    overflow-y: scroll;
+}
+
+.biodiversity-article>div>p {
+    text-shadow: rgb(25, 243, 5) 5px 2px;
+    color: rgb(255, 140, 0);
+}
+
+.biodiversity-article>p+span {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+    color: rgb(173, 255, 47);
+}
+
+.biodiversity-article>img~p {
+    color: rgb(255, 0, 255);
+}
+
+footer * {
+    font-size: 24px;
+    color: rgb(0, 255, 255);
+}
+
+[target*="bla"] {
+    color: rgb(205, 92, 92);
+}
+
+
+/* Домашня робота пункт №4 */
+
+.devices {
+    max-width: 1597px;
+    margin: 30px auto;
+    background-color: rgb(20, 20, 20);
+}
+
+.devices * {
+    font-family: "Manrope", sans-serif;
+    line-height: 1.5;
+}
+
+.devices h2,
+.devices h4 {
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.devices-title {
+    margin-bottom: 14px;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+p.devices-text {
+    max-width: 1297px;
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 80px;
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+}
+
+.devices-cards {
+    margin-inline: -15px;
+    font-size: 0;
+}
+
+.card-wrapper {
+    width: 33.333%;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding-inline: 15px;
+}
+
+.devices-card {
+    padding: 50px;
+    border-radius: 12px;
+    border: 1px solid rgb(38, 38, 38);
+    background: linear-gradient(222deg, rgba(229, 0, 0, 0.50) -208.03%, rgba(229, 0, 0, 0.00) 41.32%), #0F0F0F;
+}
+
+.devices-card img,
+h4.card-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.devices-card img {
+    height: 72px;
+    margin: 0;
+    padding: 16px;
+}
+
+h4.card-title {
+    margin-left: 16px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p.card-text {
+    background-color: transparent;
+    padding: 0;
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+}
+
+.product {
+    max-width: 539px;
+    margin: 0 auto 30px;
+}
+
+.product * {
+    font-family: "Roboto", sans-serif;
+}
+
+.product h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+}
+
+.product a {
+    display: inline-block;
+}
+
+.product-title {
+    color: rgb(9, 17, 51);
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.32;
+    letter-spacing: 1px;
+}
+
+p.product-text {
+    margin-bottom: 70px;
+    padding: 0;
+    color: rgb(80, 95, 152);
+    font-size: 18px;
+    line-height: 1.66;
+    background-color: transparent;
+}
+
+.product-kit,
+.product-learn {
+    width: 190px;
+    border-radius: 2px;
+    font-weight: 500;
+    line-height: 1.625;
+    text-align: center;
+}
+
+.product-kit {
+    margin-right: 30px;
+    padding-block: 5px;
+    background-color: rgb(17, 27, 71);
+    color: rgb(255, 255, 255);
+}
+
+.product-learn {
+    padding-block: 3px;
+    color: rgb(9, 17, 51);
+    border: 2px solid rgb(9, 17, 51);
+}
+
+.design {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.design * {
+    font-family: "Roboto", sans-serif;
+}
+
+.design h2 {
+    margin: 0;
+    margin-bottom: 16px;
+    padding: 0;
+    text-align: left;
+    text-decoration: none;
+}
+
+.design-title,
+.design-card-title {
+    color: rgb(9, 17, 51);
+}
+
+.design-title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.333;
+}
+
+.design-text,
+.design-card-text {
+    background-color: transparent;
+}
+
+p.design-text,
+.design-card-title {
+    font-size: 16px;
+    line-height: 1.625;
+}
+
+p.design-text {
+    padding: 0;
+    margin-bottom: 70px;
+    color: rgb(111, 124, 178);
+}
+
+.design-cards {
+    margin-inline: -15px;
+    font-size: 0;
+}
+
+.design-card {
+    width: 50%;
+    display: inline-block;
+    padding-inline: 15px;
+    margin-bottom: 30px;
+}
+
+img.design-card-image {
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.design-card-title {
+    margin-bottom: 6px;
+    color: rgb(9, 17, 51);
+    font-weight: 500;
+}
+
+p.design-card-text {
+    padding: 0;
+    color: #5D6970;
+    font-size: 12px;
+    line-height: 1.5;
+}
