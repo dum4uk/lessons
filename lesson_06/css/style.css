@@ -34,7 +34,7 @@ body {
 header {
     margin-bottom: 20px;
     padding-block: 80px;
-    background: url(/img/wood.jpg) center / cover no-repeat fixed;
+    background: url("../img/wood.jpg") center / cover no-repeat fixed;
     /* background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -69,7 +69,7 @@ header {
     min-height: 28px;
     display: inline-block;
     padding-left: 40px;
-    background: url(/img/play.svg) 0 center / 28px no-repeat;
+    background: url("../img/play.svg") 0 center / 28px no-repeat;
     font-size: 24px;
 }
 
@@ -228,7 +228,7 @@ header {
 .background-block-v4,
 .background-block-v5,
 .background-block-v6 {
-    background: url(/img/toy.jpg) center no-repeat;
+    background: url("../img/toy.jpg") center no-repeat;
     /* background-position: center;
     background-repeat: no-repeat; */
 }
@@ -240,7 +240,7 @@ header {
 }
 .background-block-v6 {
     background: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 100%),
-        url(/img/toy.jpg) center / cover no-repeat;
+        url("../img/toy.jpg") center / cover no-repeat;
     /* background-size: cover; */
 }
 
@@ -281,11 +281,11 @@ a.footer-link {
 .streamvibe-header {
     width: 100%;
     min-height: 860px;
-    background: url(/img/abstract-design.svg) center / 470px no-repeat,
+    background: url("../img/abstract-design.svg") center / 470px no-repeat,
         linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 100%),
         linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0) 100%),
-        url(/img/overley.png) center / cover no-repeat,
-        url(/img/movie-posters.png) center / cover no-repeat;
+        url("../img/overley.png") center / cover no-repeat,
+        url("../img/movie-posters.png") center / cover no-repeat;
 }
 .streamvibe-content {
     max-width: 1096px;
@@ -313,7 +313,7 @@ a.footer-link {
     padding-left: 56px;
     padding-right: 24px;
     padding-block: 18px;
-    background: url(/img/play.svg) 24px center / 28px no-repeat;
+    background: url("../img/play.svg") 24px center / 28px no-repeat;
     font-size: 18px;
     font-weight: 600;
 }
@@ -367,7 +367,7 @@ a.footer-link {
     padding-left: 48px;
     display: inline-block;
     min-height: 32px;
-    background: url(/img/check.svg) 0 0 / 32px no-repeat;
+    background: url("../img/check.svg") 0 0 / 32px no-repeat;
 }
 .portfolio-image {
     width: 50%;
