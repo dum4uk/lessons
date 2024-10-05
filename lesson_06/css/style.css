@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+@import url("reset.css");
+
+/* font-family: "Epilogue", sans-serif; */
+
+/* _____Загальні стилі_____ */
+
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: rgb(255, 248, 220);
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(39, 38, 38);
+}
+
+.none {
+    display: none;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-inline: 15px;
+}
+
+/* _____ Header _____ */
+
+header {
+    margin-bottom: 20px;
+    padding-block: 80px;
+    background: url(/img/wood-1794340_640.jpg) center / cover no-repeat fixed;
+    /* background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+.main-title {
+    margin-bottom: 30px;
+    font-size: 40px;
+    line-height: 2;
+    font-weight: 700;
+}
+
+.main-title,
+.secondary-title {
+    text-align: center;
+}
+.secondary-title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.header-list {
+    width: 30%;
+    margin-inline: auto;
+}
+.header-item {
+    margin-bottom: 10px;
+}
+.header-link span {
+    min-height: 28px;
+    display: inline-block;
+    padding-left: 40px;
+    background: url(/img/play.svg) 0 center / 28px no-repeat;
+    font-size: 24px;
+}
+
+/* _____ Border _____ */
+
+.border {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.border-block {
+    margin-bottom: 20px;
+}
+
+.block {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 30px;
+    background-color: rgb(127, 255, 212);
+    font-size: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.border-v1 {
+    border: 3px solid rgb(255, 255, 0);
+}
+.border-v2 {
+    border: 3px dashed rgb(0, 0, 0);
+}
+.border-v3 {
+    border-block: 3px solid green;
+    border-inline: 3px double red;
+}
+.border-v4 {
+    border-top: 3px dotted blue;
+    border-left: 3px solid gray;
+}
+.border-v5 {
+    border: 3px dashed firebrick;
+}
+.border-v5:hover {
+    border: transparent;
+}
+
+.border-inline {
+    margin-bottom: 20px;
+}
+
+.border-inline-v1 {
+    border: 2px dotted indianred;
+}
+.border-inline-v2 {
+    border-bottom: 2px solid cornflowerblue;
+}
+
+.border-radius {
+    margin-top: 30px;
+}
+
+.border-radius-v1 {
+    border-radius: 10px;
+}
+
+.border-radius-v2 {
+    border-radius: 10px 0;
+}
+.border-radius-v3 {
+    border-radius: 10px 15px 20px 25px;
+}
+
+.border-radius-v4 {
+    border-radius: 50%;
+}
+.border-radius-v1,
+.border-radius-v2,
+.border-radius-v3 {
+    padding-top: 25px;
+    border: 3px solid black;
+    outline: 3px dashed red;
+    outline-offset: 5px;
+}
+
+/* _____ Outline _____ */
+
+.outline {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.outline-block-v1 {
+    outline: 3px solid lightcoral;
+}
+.outline-block-v2 {
+    outline: 3px solid magenta;
+    outline-offset: 8px;
+}
+
+/* _____ Box-shadow _____ */
+
+.boxshadow {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.boxshadow-block-v1 {
+    box-shadow: 10px 5px 5px red;
+}
+
+.boxshadow-block-v2 {
+    box-shadow: 1px 1px 13px 5px rgba(8, 42, 235, 0.5);
+}
+
+.boxshadow-block-v3 {
+    box-shadow: inset 1px 1px 13px 5px gold;
+}
+
+.boxshadow-block-v4 {
+    box-shadow: inset 1px 1px 13px 5px gold,
+        1px 1px 13px 5px rgba(8, 42, 235, 0.5);
+}
+
+/* _____ Background _____ */
+
+.background {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.block-bg {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+.background-block-v1 {
+    background-color: brown;
+}
+
+.background-block-v2 {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.background-block-v3 {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(
+        circle,
+        rgba(63, 94, 251, 1) 11%,
+        rgba(70, 252, 122, 1) 82%
+    );
+}
+
+.background-block-v4,
+.background-block-v5,
+.background-block-v6 {
+    background: url(/img/toy.jpg) center no-repeat;
+    /* background-position: center;
+    background-repeat: no-repeat; */
+}
+.background-block-v4 {
+    background-size: auto auto;
+}
+.background-block-v5 {
+    background-size: contain;
+}
+.background-block-v6 {
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 100%),
+        url(/img/toy.jpg) center / cover no-repeat;
+    /* background-size: cover; */
+}
+
+/* _____ Footer _____ */
+
+footer {
+    padding-block: 20px;
+    background-color: rgb(169, 169, 169);
+    text-align: center;
+}
+
+a.footer-link {
+    padding-block: 15px;
+    padding-inline: 50px;
+    background-color: bisque;
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* _____Макет DarkThemeWebsite_____ */
+
+.streamvibe {
+    padding: 30px;
+    background-color: #141414;
+}
+
+.streamvibe .secondary-title {
+    margin-bottom: 40px;
+    color: rgb(250, 250, 250);
+}
+
+.streamvibe-container {
+    max-width: 1950px;
+    color: rgb(255, 255, 255);
+}
+
+.streamvibe-header {
+    width: 100%;
+    min-height: 860px;
+    background: url(/img/abstract-design.svg) center / 470px no-repeat,
+        linear-gradient(180deg, rgba(20, 20, 20, 0) 0%, #141414 100%),
+        linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0) 100%),
+        url(/img/overley.png) center / cover no-repeat,
+        url(/img/movie-posters.png) center / cover no-repeat;
+}
+.streamvibe-content {
+    max-width: 1096px;
+    margin-top: -64px;
+    margin-inline: auto;
+    text-align: center;
+}
+.streamvibe-title {
+    margin-bottom: 14px;
+    font-size: 58px;
+    font-weight: 700;
+}
+.streamvibe-text {
+    margin-bottom: 50px;
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+}
+.streamvibe-link {
+    border-radius: 8px;
+    background-color: rgb(229, 0, 0);
+}
+.streamvibe-link span {
+    display: inline-block;
+    min-height: 28px;
+    padding-left: 56px;
+    padding-right: 24px;
+    padding-block: 18px;
+    background: url(/img/play.svg) 24px center / 28px no-repeat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* _____Макет PortfolioTemplate_____ */
+
+.portfolio {
+    padding-block: 30px;
+    background-color: rgb(253, 240, 233);
+    font-family: "Epilogue", sans-serif;
+    color: #391400;
+}
+.portfolio-wrapper {
+    margin-inline: -85px;
+    font-size: 0;
+}
+.portfolio-content {
+    width: 50%;
+    display: inline-block;
+    padding-inline: 85px;
+    vertical-align: middle;
+}
+.portfolio-subtitle {
+    margin-bottom: 20px;
+    color: rgb(239, 109, 88);
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.portfolio-title {
+    margin-bottom: 26px;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.143;
+    letter-spacing: -1px;
+}
+.portfolio-text {
+    margin-bottom: 26px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.portfolio-item {
+    margin-bottom: 16px;
+    color: rgba(57, 20, 0, 0.64);
+    font-size: 16px;
+    line-height: 2;
+}
+.portfolio-item span {
+    padding-left: 48px;
+    display: inline-block;
+    min-height: 32px;
+    background: url(/img/check.svg) 0 0 / 32px no-repeat;
+}
+.portfolio-image {
+    width: 50%;
+    display: inline-block;
+    padding-inline: 85px;
+    vertical-align: middle;
+}
