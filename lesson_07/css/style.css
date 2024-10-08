@@ -530,7 +530,8 @@ line-height: 2;
 .line-7:hover,
 .line-7:hover+.line-8, 
 .line-8:hover,
-.line-8:hover+.end {
+.line-8:hover+.end,
+.end:hover {
     visibility: visible;
 }
 
