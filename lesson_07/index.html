@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Домашня робота №7</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="container">
+                    <div id="up"></div>
+                    <h1 class="main-title">
+                        Урок №7 (Псевдокласи та псевдоелементи)
+                    </h1>
+                    <h2 class="secondary-title">Зміст</h2>
+                    <ol class="header-list">
+                        <li class="header-item">
+                            <a href="#ps-class" class="header-link">
+                                <span>Псевдокласи</span>
+                            </a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#ps-element" class="header-link">
+                                <span>Псевдоелементи</span>
+                            </a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#timeline" class="header-link">
+                                <span>Макет BusinessPresentation</span>
+                            </a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#agency" class="header-link">
+                                <span>Макет PortfolioTemplate</span>
+                            </a>
+                        </li>
+                        <li class="header-item">
+                            <a href="#game" class="header-link">
+                                <span>Гра</span>
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+            </header>
+            <main>
+                <div class="ps-class none">
+                    <div class="container">
+                        <h2 id="ps-class" class="secondary-title">Hover, Active, Visited, Focus, Target</h2>
+                        <div class="ps-class-block">
+                            <a class="ps-class-v1 block" href="#!">Hover</a>
+                            <a class="ps-class-v2 block" href="#!">Active</a>
+                            <a class="ps-class-v3 block" href="https://fls.guru/cssbackground.html" target="_blank">Visited</a>
+                            <a class="ps-class-v4 block" href="#!">Focus</a>
+                            <a class=" block" href="#target">Target</a>
+                            <div id="target" class="ps-class-v5 block">Target V1</div>
+                        </div>
+                        <div class="ps-list">
+                            <div class="ps-list-wrapper">
+                                <h3 class="ps-list-title">:first-child</h3>
+                                <ul class="ps-list-1 list">
+                                    <li class="ps-item">Item 1</li>
+                                    <li class="ps-item">Item 2</li>
+                                    <li class="ps-item">Item 3</li>
+                                    <li class="ps-item">Item 4</li>
+                                    <li class="ps-item">Item 5</li>
+                                </ul>
+                            </div>
+                            <div class="ps-list-wrapper">
+                                <h3 class="ps-list-title">:last-child</h3>
+                                <ul class="ps-list-2 list">
+                                    <li class="ps-item">Item 1</li>
+                                    <li class="ps-item">Item 2</li>
+                                    <li class="ps-item">Item 3</li>
+                                    <li class="ps-item">Item 4</li>
+                                    <li class="ps-item">Item 5</li>
+                                </ul>
+                            </div>
+                            <div class="ps-list-wrapper">
+                                <h3 class="ps-list-title">:nth-child()</h3>
+                                <ul class="ps-list-3 list">
+                                    <li class="ps-item">Item 1</li>
+                                    <li class="ps-item">Item 2</li>
+                                    <li class="ps-item">Item 3</li>
+                                    <li class="ps-item">Item 4</li>
+                                    <li class="ps-item">Item 5</li>
+                                </ul>
+                            </div>
+                            <div class="ps-list-wrapper">
+                                <h3 class="ps-list-title">:not(:last-child)</h3>
+                                <ul class="ps-list-4 list">
+                                    <li class="ps-item">Item 1</li>
+                                    <li class="ps-item">Item 2</li>
+                                    <li class="ps-item">Item 3</li>
+                                    <li class="ps-item">Item 4</li>
+                                    <li class="ps-item">Item 5</li>
+                                </ul>
+                            </div>
+                            <div class="ps-list-wrapper">
+                                <h3 class="ps-list-title">:nth-child(odd)</h3>
+                                <ul class="ps-list-5 list">
+                                    <li class="ps-item">Item 1</li>
+                                    <li class="ps-item">Item 2</li>
+                                    <li class="ps-item">Item 3</li>
+                                    <li class="ps-item">Item 4</li>
+                                    <li class="ps-item">Item 5</li>
+                                </ul>
+                            </div>
+                            <div class="ps-list-wrapper">
+                                <h3 class="ps-list-title">:nth-child(even)</h3>
+                                <ul class="ps-list-6 list">
+                                    <li class="ps-item">Item 1</li>
+                                    <li class="ps-item">Item 2</li>
+                                    <li class="ps-item">Item 3</li>
+                                    <li class="ps-item">Item 4</li>
+                                    <li class="ps-item">Item 5</li>
+                                </ul>
+                            </div>
+                            <div class="ps-list-wrapper">
+                                <h3 class="ps-list-title">:first-of-type</h3>
+                                <ul class="ps-list-7 list">
+                                    <li class="ps-item">Item 1</li>
+                                    <li class="ps-item"><a>Item 2</a><span>Item 2</span><span>Item 2</span></li>
+                                    <li class="ps-item">Item 3</li>
+                                    <li class="ps-item">Item 4</li>
+                                    <li class="ps-item">Item 5</li>
+                                </ul>
+                            </div>
+                            <div class="ps-list-wrapper">
+                                <h3 class="ps-list-title">last-of-type</h3>
+                                <ul class="ps-list-8 list">
+                                    <li class="ps-item">
+                                        <a>Item 1</a><span>Item 1</span><a>Item 1</a>
+                                    </li>
+                                    <li class="ps-item">Item 2</li>
+                                    <li class="ps-item">Item 3</li>
+                                    <li class="ps-item">Item 4</li>
+                                    <li class="ps-item">Item 5</li>
+                                </ul>
+                            </div>
+                            <div class="ps-list-wrapper">
+                                <h3 class="ps-list-title">:not()</h3>
+                                <ul class="ps-list-9 list">
+                                    <li class="ps-item">Item 1</li>
+                                    <li class="ps-item">Item 2</li>
+                                    <li class="ps-item">Item 3</li>
+                                    <li class="ps-item">Item 4</li>
+                                    <li class="ps-item">Item 5</li>
+                                </ul>
+                            </div>
+                            <div class="ps-list-wrapper">
+                                <h3 class="ps-list-title">:has()</h3>
+                                <ul class="ps-list-10 list">
+                                    <li class="ps-item">Item 1</li>
+                                    <li class="ps-item">
+                                        <p>Item 2</p>
+                                    </li>
+                                    <li class="ps-item">Item 3</li>
+                                    <li class="ps-item">Item 4</li>
+                                    <li class="ps-item">Item 5</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ps-element none">
+                    <div class="container">
+                        <h2 id="ps-element" class="secondary-title">Псевдоелементи</h2>
+                        <div class="ps-element-wrapper">
+                            <p class="ps-element-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis mollitia ipsa et consequuntur ut corrupti, dolores tempora ratione repellendus porro nulla ad, possimus ea animi non quas quo a ipsum.</p>
+                            <p class="ps-element-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis mollitia ipsa et consequuntur ut corrupti, dolores tempora ratione repellendus porro nulla ad, possimus ea animi non quas quo a ipsum.</p>
+                            <ul class="ps-element-list">
+                                <li class="ps-element-item">Lorem ipsum dolor sit amet.</li>
+                                <li class="ps-element-item">Lorem ipsum dolor sit amet.</li>
+                                <li class="ps-element-item">Lorem ipsum dolor sit amet.</li>
+                                <li class="ps-element-item">Lorem ipsum dolor sit amet.</li>
+                                <li class="ps-element-item">Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                            <ul class="ps-element-list">
+                                <li class="ps-element-item">Lorem ipsum dolor sit amet.</li>
+                                <li class="ps-element-item">Lorem ipsum dolor sit amet.</li>
+                                <li class="ps-element-item">Lorem ipsum dolor sit amet.</li>
+                                <li class="ps-element-item">Lorem ipsum dolor sit amet.</li>
+                                <li class="ps-element-item">Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="business-presentation none">
+                    <div class="container">
+                        <div class="timeline">
+                            <h2 id="timeline" class="secondary-title">Макет BusinessPresentation</h2>
+                            <div class="timeline-block">
+                                <div class="timeline-wrapper">
+                                    <p class="timeliner-date">Jan 2023</p>
+                                    <h3 class="timeliner-title timeliner-title-icon1">Research & discovery</h3>
+                                    <p class="timeliner-text">
+                                        Et arcu aliquam viverra felis rhoncus vitae arcu eget urna viverra massa nullaolmerolil fermentum congue ultrices.
+                                    </p>
+                                </div>
+                                <div class="timeline-wrapper">
+                                    <p class="timeliner-date">Feb 2023</p>
+                                    <h3 class="timeliner-title timeliner-title-icon2">Product development</h3>
+                                    <p class="timeliner-text">
+                                        Libero sed nibh dictumst viverra tincidunt nulla risusolm neque lorem sed elementum adipiscing purus massa.
+                                    </p>
+                                </div>
+                                <div class="timeline-wrapper">
+                                    <p class="timeliner-date">Apr 2023</p>
+                                    <h3 class="timeliner-title timeliner-title-icon3">Product launch</h3>
+                                    <p class="timeliner-text">
+                                        In diam aenean nunc amet faucibus commodo mattisole tincidunt euismod quis gravida tellus eros venenatis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pricing">
+                        <div class="container">
+                            <div class="pricing-wrapper">
+                                <div class="pricing-tarif">
+                                    <h3 class="tarif-title">Basic</h3>
+                                    <p class="tarif-price">$99</p>
+                                    <p class="tarif-term">Billed monthly</p>
+                                </div>
+                                <ol class="conditions-list">
+                                    <li class="conditions-item"> All analystics features</li>
+                                    <li class="conditions-item">Up to 250,000 tracked visits</li>
+                                    <li class="conditions-item">Normal support
+                                    </li>
+                                    <li class="conditions-item">Up to 3 team members</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="agency none">
+                    <div class="container">
+                        <h2 id="agency" class="secondary-title">Макет PortfolioTemplate</h2>
+                        <div class="agency-block">
+                            <img src="img/agency-img.jpg" alt="" class="agency-img">
+                            <div class="agency-content-wrapper">
+                                <div class="agency-content">
+                                    <h2 class="agency-title">
+                                        Agency provides a full service range including technical skills, design, business understanding.
+                                    </h2>
+                                    <p class="agency-text">
+                                        Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.
+                                    </p>
+                                </div>
+                                <div class="agency-promote">
+                                    <h3 class="agency-subtitle">Promote your product</h3>
+                                    <p class="agency-text">Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.</p>
+                                    <ul class="agency-promote-list">
+                                        <li class="agency-promote-item">Digital marketing</li>
+                                        <li class="agency-promote-item">Efforts instead</li>
+                                        <li class="agency-promote-item">Handling in-house</li>
+                                    </ul>
+                                    <p class="agency-text">A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+                                </div>
+                                <div class="agency-service">
+                                    <h3 class="agency-subtitle">Service online and help</h3>
+                                    <p class="agency-text">Put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.</p>
+                                    <ol class="agency-service-list">
+                                        <li class="agency-service-item">1. Marketing efforts</li>
+                                        <li class="agency-service-item">2. Instead of handling</li>
+                                        <li class="agency-service-item">3. In-house</li>
+                                    </ol>
+                                    <p class="agency-text">Agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+                                    <div class="agency-quote">
+                                        <div class="agency-quote-text">Provide your business with a variety of digital solutions to promote your product or service online and help you.</div>
+                                    </div>
+                                    <p class="agency-text">Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.</p>
+                                    <div class="agency-rectangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="game">
+                    <div class="container">
+                        <h2 id="game" class="secondary-title">Гра</h2>
+                        <div class="game-block">
+                            <div class="start">Старт</div>
+                            <div class="line-1"></div>
+                            <div class="line-2"></div>
+                            <div class="line-3"></div>
+                            <div class="line-4"></div>
+                            <div class="line-5"></div>
+                            <div class="line-6"></div>
+                            <div class="line-7"></div>
+                            <div class="line-8"></div>
+                            <div class="end">Фініш</div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="container">
+                    <a href="#up" class="footer-link">На гору</a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
