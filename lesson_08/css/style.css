@@ -119,6 +119,10 @@ header {
     margin-inline: auto;
 }
 
+hr {
+    border: 2px solid rgb(33, 19, 43);
+}
+
 /* _____Растрові зображення_____*/
 
 
