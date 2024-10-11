@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Домашня робота №8</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="container">
+                    <div id="up"></div>
+                    <h1 class="main-title">
+                        Урок №8 (Web-графіка)
+                    </h1>                    
+                </div>
+            </header>
+            <main>
+                <div class="vector">
+                    <div class="container block-bg">
+                        <h2 class="secondary-title">Векторні зображення (svg)</h2>
+                        <h3 class="block-title">Іконки</h3>
+                        <div class="icons">
+                            <div class="icon">
+                                <img src="img/icons/logo.svg" alt="Зображення логотипу компанії (п'ятикутник в п'ятикутнику)" class="icon-img">
+                            </div>
+                            <div class="icon">
+                                <img src="img/icons/calendar.svg" alt="Зображення блокнота" class="icon-img">
+                            </div>
+                            <div class="icon">
+                                <img src="img/icons/briefcase.svg" alt="Зображення портфеля" class="icon-img">
+                            </div>
+                            <div class="icon">
+                                <img src="img/icons/present.svg" alt="Зображення подарунка" class="icon-img">
+                            </div>
+                            <div class="icon">
+                                <img src="img/icons/facebook.svg" alt="Логотип Facebook" class="icon-img">
+                            </div>
+                            <div class="icon">
+                                <img src="img/icons/instagrtam.svg" alt="Логотип Instagrtam" class="icon-img">
+                            </div>
+                            <div class="icon">
+                                <img src="img/icons/twitter.svg" alt="Логотип Twitter" class="icon-img">
+                            </div>
+                            <div class="icon">
+                                <img src="img/icons/play.svg" alt="Зображення кнопки play" class="icon-img">
+                            </div>
+                        </div>
+                        <h3 class="block-title">Елемент дизайну</h3>
+                        <div class="decor">
+                            <div class="decor-item">
+                                <img src="img/path.svg" alt="Зображення прозорої хмаринки" class="decor-img">
+                            </div>
+                            <div class="decor-item">
+                                <img src="img/quotes.svg" alt="Зображення подвійних лапок" class="decor-img">
+                            </div>
+                            <div class="decor-item">
+                                <img src="img/block.svg" alt="Схематичний малюнок картки продукта" class="decor-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="raster">
+                    <div class="container block-bg">
+                        <h2 class="secondary-title">Растрові зображення (png ~ webp, jpeg ~ webp)</h2>
+                        <h3 class="block-title">Логотипи</h3>
+                        <div class="raster-logos">
+                            <div class="raster-logo">
+                                <img src="img/digitalsite.webp" alt="Логотип компанії Digitalsite" class="raster-logo-img">
+                            </div>
+                            <div class="raster-logo">
+                                <img src="img/fuzion.webp" alt="Логотип компанії Fuzion" class="raster-logo-img">
+                            </div>
+                            <div class="raster-logo">
+                                <img src="img/mediafury.webp" alt="Логотип компанії Mediafury" class="raster-logo-img">>
+                            </div>
+                            <div class="raster-logo">
+                                <img src="img/travel-explorer.webp" alt="Логотип компанії Travel explorer" class="raster-logo-img">
+                            </div>
+                            <div class="raster-logo">
+                                <img src="img/vortex.webp" alt="Логотип компанії Vortex" class="raster-logo-img">
+                            </div>
+                            <p>.</p>
+                        </div>
+                        <div class="raster-pictures">
+                            <div class="raster-foto">
+                                <h3 class="block-title">Не працює в Safari</h3>
+                                <img srcset="img/designer-2x.webp 2x, img/designer-3x.webp 3x" src="img/designer.webp" alt="Фото молодого чоловіка в сонцезахісних окулярах на фоні вечірнього парку" class="raster-foto-img">
+                                <img srcset="img/video-2x.webp 2x, img/video-3x.webp 3x" src="img/video.webp" alt="Абстрактна скульптура червоного кольору вигнута на фоні неба" class="raster-foto-img">
+                            </div>
+                        </div>
+                        <div class="raster-pictures">
+                            <div class="raster-foto">
+                                <h3 class="block-title">Працює в Safari</h3>
+                                <picture class="raster-foto-img">
+                                    <source srcset="img/designer-2x.webp 2x, img/designer-3x.webp 3x"
+                                    type="image/webp">
+                                    <img src="img/designer.webp" alt="Фото молодого чоловіка в сонцезахісних окулярах на фоні вечірнього парку"  class="raster-foto-img">
+                                </picture >
+                                <picture class="raster-foto-img">
+                                    <source srcset="img/video-2x.webp 2x, img/video-3x.webp 3x" type="image/webp">
+                                    <img src="img/video.webp" alt="Абстрактна скульптура червоного кольору вигнута на фоні неба" class="raster-foto-img">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="container">
+                    <a href="#up" class="footer-link">На гору</a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
