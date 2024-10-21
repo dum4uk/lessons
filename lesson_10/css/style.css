@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700,800,900&display=swap");
+@import url("reset.css");
+
+/* _____Загальні стилі_____ */
+
+body {
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    line-height: 2;
+    background-color: #28293E;
+    color: rgb(255, 255, 255);
+}
+
+/* .none {
+    display: none;
+} */
+
+.wrapper {
+    padding-block-start: 100px;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-inline: 15px;
+}
+
+.main-title {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: cadetblue;
+}
+
+
+/* _____Header_____ */
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    inset-inline-start: 0;
+    inset-block-start: 0;
+    background-color: rgb(245, 245, 245);
+    z-index: 100;
+}
+
+/* _____Studio_____ */
+
+.studio {
+    padding-block: 56px;
+}
+
+.studio__wrapper {
+    font-size: 0;
+}
+.studio__content {
+    display: inline-block;
+    margin-right: 7.4359%; /* 87/1170 */
+    position: relative;
+    width: 43.8462%; /* 513/1170 */
+    vertical-align: middle;
+
+}
+.section-content {
+    font-size: 16px;
+}
+.section-content__label {
+    margin-block: 10px 24px;
+    color: rgb(239, 109, 88);
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.section-content__main-title {
+
+    margin-block-end: 24px;
+font-size: 72px;
+font-weight: 800;
+line-height: 1.11; /* 80/72 */
+letter-spacing: -2px;
+}
+
+.section-content__deco-star{
+    position: absolute;
+    top: 32px;
+    left: 278px;
+}
+
+.section-content__text {
+    max-width: 470px;
+    margin-block-end: 34px;
+    color: rgba(255, 255, 255, 0.64);
+}
+.section-content__btn {
+    margin-inline-start: 46px;
+}
+.section-content__btn:hover{
+    color: rgb(239, 109, 88);
+    font-weight: 800;
+}
+.section-content__btn--bg-white{
+    margin-inline-start: 0;
+    margin-block-end: 108px;
+    padding-inline: 23px;
+    padding-block: 17px;
+    border-radius: 6px;
+background-color: rgb(239, 109, 88);
+text-align: center;
+font-size: 14px;
+font-weight: 900;
+line-height: 1;
+text-transform: uppercase;
+}
+
+.section-content__btn--bg-white:hover{
+    background-color: rgb(0, 255, 255);
+}
+
+
+.section-content__avatar {
+    vertical-align: middle;
+}
+.section-content__subcontent {
+    display: inline-block;
+    vertical-align: middle;
+}
+.section-content__subcontent *{
+margin-block-end: 0;
+}
+.section-content__text--white {
+    margin-inline-start: 6px;
+    color: rgb(255, 255, 255);
+}
+.studio__image {
+    position: relative;
+    display: inline-block;
+    width: 48.7179%; /* 570/1170 */
+    vertical-align: top;
+}
+.section-image *{
+    position: absolute;
+}
+
+.section-image__circle{
+    width: 370px;
+height: 370px;
+border-radius: 50%;
+background: rgb(50, 51, 76);
+left: 100px;
+top: 100px;
+z-index: -1;
+}
+
+.section-image__frame {
+    position: relative;
+}
+.section-image__violet-frame {
+    top: 0;
+    left: 0;
+}
+.section-image__notebook {
+    top: 24px;
+    left: 21px;
+}
+.section-image__spring {
+    top: 341px;
+    left: 0;
+}
+.section-image__card {
+    top: 431px;
+    left: 56px;
+}
+
+.section-image__circle-terracotta-wrapper {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    top: 40px;
+    left: 304px;
+    background-color: rgba(239, 109, 88, 1);
+}
+.section-image__circle-terracotta {
+    position: relative;
+}
+
+.section-image__circle-terracotta-img {
+    top: 28px;
+    left: 35px;
+}
+
+.section-image__cloud {
+    top: 80px;
+    left: 458px;
+}
+
+.section-image__frame--yellow {
+    position: absolute;
+    top: 189px;
+    left: 324px;
+}
+.section-image__yellow-frame {
+    position: relative;
+}
+.section-image__woman {
+    top: 36px;
+    left: 0;
+}
+
+.section-image__arrow {
+    top: 556px;
+    left: 314px;
+}
+
+/* _____Work_____ */
+
+.work__wrapper {
+    padding-block: 30px;
+}
+
+.work__wrapper img {
+    border-radius: 6px;
+}
+
+.work__wrapper-one {
+    margin-block-end: 32px;
+}
+
+.work__wrapper-one,
+.work__wrapper-two {
+    font-size: 0;
+}
+
+.work__wrapper-one div:first-of-type,
+.work__wrapper-two div:first-of-type {
+    margin-inline-end: 2.5641%;
+}
+
+.work__wrapper-small {
+    display: inline-block;
+    width: 40.1709%; /* 470/1170 */
+}
+
+.section-content{
+    position: relative;
+}
+
+.section-content__work-subcontent {
+    position: absolute;
+    top: 256px;
+    left: 48px;
+}
+
+.section-content__label--dark {
+    display: inline-block;
+    padding: 5px 15px 1px 16px;
+    margin-block-end: 24px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    letter-spacing: normal;
+    text-transform: none;
+    color: rgba(57, 20, 0, 1);
+}
+.section-content__card-title {
+    color: rgb(255, 255, 255);
+font-size: 40px;
+font-weight: 800;
+line-height: 1.2;
+}
+.work__wrapper-large {
+    display: inline-block;
+    width: 57.265%; /* 670/1170 */
+}
+
+
+/* ______Footer_____ */
+
+.footer__text{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: cadetblue;
+}
