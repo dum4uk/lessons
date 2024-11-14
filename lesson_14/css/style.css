@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:regular,600,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600&display=swap");
+@import url("reset.css");
+
+/* _____Загальні стилі_____ */
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #28293E;
+    color: rgb(255, 255, 255);
+}
+
+.none {
+    display: none;
+}
+
+.wrapper {
+    padding-block-start: 75px;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-inline: 15px;
+}
+
+.main-title {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: cadetblue;
+}
+
+
+/* _____Header_____ */
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    inset-inline-start: 0;
+    inset-block-start: 0;
+    background-color: rgb(245, 245, 245);
+    z-index: 100;
+}
+
+/* _____Portfolio_____ */
+.portfollio {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.333;
+    color: rgb(135, 144, 157);
+    padding-block: 100px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.portfolio__form {
+    max-width: 736px;
+    margin: 0 auto;
+    padding: 88px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio__form-text {
+    margin-block-end: 50px;
+}
+
+.portfolio__form-wrapper{
+    margin-block-end: 50px;
+}
+
+.portfolio__form-wrapper>*:not(:last-child){
+    margin-block-end: 24px;
+}
+
+.portfolio__form-input {
+    padding-block-end: 14px;
+    border-bottom: 1.5px solid rgb(230, 232, 235);
+    outline: none;
+}
+
+.portfolio__form-input::placeholder {
+    font-family: "Work Sans";
+    font-size: 18px;
+    line-height: 1.333;
+    color: rgb(105, 116, 132);
+}
+
+.portfolio__form-input:focus {
+    border-bottom: 1.5px solid rgb(165, 61, 255);
+}
+
+.portfolio__form-input:focus, 
+.portfolio__form-input:focus::placeholder {
+    color: rgb(165, 61, 255);
+}
+
+.portfolio__form-budget {
+    display: flex;
+    gap: 24px;
+}
+.portfolio__form-budget>.portfolio__form-input:first-child{
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
+
+.portfolio__form-btn {
+    position: relative;
+    padding-block: 12px;
+    padding-inline: 24px 60px;
+    border-radius: 4px;
+    background: rgb(165, 61, 255);
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    transition: all .5s ease;
+}
+
+.portfolio__form-btn::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+    background-image: url(/img/paper-plane.svg);
+}
+
+.portfolio__form-btn:hover {
+    transform: scale(1.2);
+    background-color: rgb(135, 144, 157);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* ______Dark_____ */
+
+.dark {
+    padding-block: 150px;
+    background: rgb(20, 20, 20);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 976px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 12px;
+    border: 1px solid rgb(38, 38, 38);
+    background: rgb(15, 15, 15);
+}
+.form__wrapper {
+display: flex;
+align-items: center;
+gap: 50px;
+}
+
+.form__wrapper:last-child {
+    gap: 70px;
+}
+
+.form__block {
+    flex-basis: 413px;
+    flex-shrink: 0;
+
+}
+
+.form__label {
+    display: block;
+    margin-block-end: 16px;
+    font-weight: 600;
+}
+.form__input,
+.form__textarea-block {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgb(38, 38, 38);
+    background-color: rgb(20, 20, 20);
+}
+
+.form__input::placeholder,
+.form__form__textarea-block::placeholder,
+.form__label-2 {
+    color: rgb(153, 153, 153);
+font-family: Manrope;
+font-size: 18px;
+line-height: 1.5;
+}
+
+.form__input:focus,
+.form__textarea:focus {
+    transform: scale(1.05);
+    box-shadow: rgba(229, 0, 0) 0px 5px 15px;
+}
+
+.form__textarea-block {
+    flex-basis: 876px;
+    flex-shrink: 0;
+}
+
+.form__textarea {
+    min-height: 163px;
+    resize: none;
+}
+
+.form__checkbox-block {
+    flex-basis: 633px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+/* .form__checkbox-block>label {
+    display: block;
+} */
+
+.form__checkbox-block:hover {
+    transform: scale(1.05);
+}
+
+.form__checkbox {
+    appearance: none;
+}
+
+.form__checkbox:focus-visible + .form__label-2::before {
+    outline: 1px solid rgb(255, 255, 255) ;
+    transform: scale(1.2);
+    box-shadow: rgba(229, 0, 0) 0px 5px 15px;
+}
+
+.form__checkbox:checked + .form__label-2::before {
+    background: url(/img/check.svg) 0 0 / 100% no-repeat;
+}
+
+.form__label-2 {
+    display: flex;
+    gap: 10px;
+    flex-basis: 595px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.form__label-2::before {
+    content: "";
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid rgb(38, 38, 38);
+}
+.form__btn {
+    flex-shrink: 0;
+    padding-inline: 24px;
+    padding-block: 18px;
+    flex-basis: 173px;
+    border-radius: 8px;
+    background: rgb(229, 0, 0);
+    font-weight: 600;
+    transition: all .5s ease-in;
+}
+
+.form__btn:hover {
+    transform: scale(1.2);
+    background-color: rgb(255, 255, 255);
+    color: rgb(229, 0, 0);
+    box-shadow: rgba(229, 0, 0) 0px 5px 15px;
+}
+
+/* ______Footer_____ */
+
+.footer__text{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: cadetblue;
+}
