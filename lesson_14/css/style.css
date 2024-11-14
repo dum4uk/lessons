@@ -131,7 +131,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     right: 24px;
-    background-image: url(../img/paper-plane.svg);
+    background-image: url("../img/paper-plane.svg");
 }
 
 .portfolio__form-btn:hover {
@@ -237,7 +237,7 @@ line-height: 1.5;
 }
 
 .form__checkbox:checked + .form__label-2::before {
-    background: url(../img/check.svg) 0 0 / 100% no-repeat;
+    background: url("../img/check.svg") 0 0 / 100% no-repeat;
 }
 
 .form__label-2 {
